@@ -55,5 +55,9 @@ public class OrdersController {
     public String getIndex() {
         return INDEX;
     }
+    @RequestMapping("/showindex")
+    public String getShowIndex() {
+        return INDEX;
+    }
 }
 
