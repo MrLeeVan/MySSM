@@ -53,6 +53,7 @@ public class OrdersController {
     }
     @RequestMapping("/show")
     public String getIndex() {
+        log.info("zhangsan");
         return INDEX;
     }
     @RequestMapping("/showindex")
