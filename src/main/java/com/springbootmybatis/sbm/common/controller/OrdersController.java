@@ -57,7 +57,7 @@ public class OrdersController {
     }
     @RequestMapping("/showindex")
     public String getShowIndex() {
-        return INDEX;
+        return "zhasjdhajsdhbasjhd";
     }
 }
 
